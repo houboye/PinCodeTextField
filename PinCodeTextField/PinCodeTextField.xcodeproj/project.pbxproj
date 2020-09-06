@@ -13,6 +13,8 @@
 		C298730C2504A26200A1ADA0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C298730A2504A26200A1ADA0 /* Main.storyboard */; };
 		C298730E2504A26300A1ADA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C298730D2504A26300A1ADA0 /* Assets.xcassets */; };
 		C29873112504A26300A1ADA0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C298730F2504A26300A1ADA0 /* LaunchScreen.storyboard */; };
+		C29873192504BE0A00A1ADA0 /* PinCodeTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C29873182504BE0A00A1ADA0 /* PinCodeTextField.swift */; };
+		C298731B2504C62D00A1ADA0 /* PinCodeTextFieldItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C298731A2504C62D00A1ADA0 /* PinCodeTextFieldItemView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		C298730D2504A26300A1ADA0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C29873102504A26300A1ADA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C29873122504A26300A1ADA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C29873182504BE0A00A1ADA0 /* PinCodeTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinCodeTextField.swift; sourceTree = "<group>"; };
+		C298731A2504C62D00A1ADA0 /* PinCodeTextFieldItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinCodeTextFieldItemView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				C29873042504A26100A1ADA0 /* AppDelegate.swift */,
 				C29873062504A26200A1ADA0 /* SceneDelegate.swift */,
 				C29873082504A26200A1ADA0 /* ViewController.swift */,
+				C29873182504BE0A00A1ADA0 /* PinCodeTextField.swift */,
+				C298731A2504C62D00A1ADA0 /* PinCodeTextFieldItemView.swift */,
 				C298730A2504A26200A1ADA0 /* Main.storyboard */,
 				C298730D2504A26300A1ADA0 /* Assets.xcassets */,
 				C298730F2504A26300A1ADA0 /* LaunchScreen.storyboard */,
@@ -138,6 +144,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C29873192504BE0A00A1ADA0 /* PinCodeTextField.swift in Sources */,
+				C298731B2504C62D00A1ADA0 /* PinCodeTextFieldItemView.swift in Sources */,
 				C29873092504A26200A1ADA0 /* ViewController.swift in Sources */,
 				C29873052504A26200A1ADA0 /* AppDelegate.swift in Sources */,
 				C29873072504A26200A1ADA0 /* SceneDelegate.swift in Sources */,

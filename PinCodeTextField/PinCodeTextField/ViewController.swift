@@ -12,7 +12,12 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        let pinCodeTF = PinCodeTextField(characterLimit: 6)
+        view.addSubview(pinCodeTF)
+        pinCodeTF.frame = CGRect(x: 0, y: 100, width: UIScreen.main.bounds.width, height: 60)
+        
+        pinCodeTF.backgroundColor = UIColor.red
     }
 
 
